@@ -1,0 +1,10 @@
+rootProject.name = "jetpack-compose-calculator"
+
+dependencyResolutionManagement {
+    repositories {
+        mavenLocal()
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}

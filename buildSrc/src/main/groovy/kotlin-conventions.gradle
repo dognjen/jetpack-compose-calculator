@@ -1,0 +1,11 @@
+plugins {
+    id 'project-conventions'
+
+    id "org.jetbrains.kotlin.jvm"
+}
+
+kotlin {
+    jvmToolchain {
+        languageVersion.set(JavaLanguageVersion.of(libs.versions.java.get()))
+    }
+}

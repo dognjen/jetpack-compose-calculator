@@ -1,0 +1,7 @@
+[versions]
+java = '8'
+kotlin = '1.6.10'
+
+[libraries]
+
+[bundles]
