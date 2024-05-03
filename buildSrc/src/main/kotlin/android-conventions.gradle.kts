@@ -6,11 +6,15 @@ plugins {
 
 android {
 
-    compileSdk = 33
-    buildToolsVersion = "33"
+    compileSdk = 34
+    buildToolsVersion = "34"
 
     defaultConfig {
-        minSdk = 21
+        applicationId = "com.dognjen.app.calculator"
+        minSdk = 27
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
     }
 
     buildFeatures {
@@ -18,7 +22,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = "19"
+        jvmTarget = "1.8"
     }
 
     /*
