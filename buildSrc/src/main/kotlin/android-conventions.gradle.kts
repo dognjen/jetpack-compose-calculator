@@ -17,6 +17,10 @@ android {
         compose = true
     }
 
+    kotlinOptions {
+        jvmTarget = "19"
+    }
+
     /*
     // not needed with kotlin 2.0.0
     composeOptions {
