@@ -10,15 +10,16 @@ android {
     buildToolsVersion = "33"
 
     defaultConfig {
-        minSdkVersion(21)
+        minSdk = 21
     }
 
     buildFeatures {
         compose = true
     }
 
+    /*
     // not needed with kotlin 2.0.0
-    /*composeOptions {
+    composeOptions {
         kotlinCompilerExtensionVersion = "1.5.13"
     }*/
 }

@@ -1,5 +1,5 @@
 plugins {
-    `abc-conventions`
+    `android-conventions`
 }
 
-android.namespace = "com.dognjen.app"
+android.namespace = "com.dognjen.app.calculator"
